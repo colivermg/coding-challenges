@@ -19,6 +19,7 @@ public class App {
         queue.poll();
         /*System.out.println(queue.size());*/
         queue.print();
-
+        System.out.println(queue.peek());
+        queue.print();
     }
 }

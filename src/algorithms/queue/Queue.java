@@ -65,7 +65,7 @@ public class Queue {
         }
         Node aux = this.head;
         while (null != aux) {
-            System.out.println(aux.data);
+            System.out.print(aux.data+" ");
             aux = aux.next;
         }
     }
